@@ -84,23 +84,9 @@ svg {
   margin-bottom: .2rem;
 }
  .bigsellersParagraph  {
-  /* color: #000;
-  background-color: #fdf7ff;
-  width: 28.125rem;
-  height: 6.4375rem; 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-family: "IRANYekan", sans-serif;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal; */
+  
   color: #000;
   background-color: #fdf7ff;
-  /* margin-left: 32rem;
-  margin-right: 32rem; */
   margin-left: 20rem;
   margin-right: 20rem;
   height: 6rem; 
@@ -124,12 +110,10 @@ svg {
   width: 30vw;
   aspect-ratio: 4/1;
   margin: auto;
-  /* width: 10vw; */
-}
+  
 .firstD {
   width: fit-content;
   justify-content: right;
-  /* display: flex; */
   display: flex;
   text-align: right;
   font-size: 1rem;
@@ -150,7 +134,7 @@ svg {
   flex-shrink: 0;
 }
 .firstD .p {
-  /* position: absolute; */
+  
 }
 
 .secondD {
