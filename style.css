@@ -60,11 +60,15 @@ svg {
 }
 .purple-left-part-picturs {
   float: left;
-  
+  margin-left: 9.31rem;
+  margin-top: 3.2rem;
 }
 .purple-right-part {
   display: grid;
   grid-column: center;
+}
+.sellers {
+  
 }
 .bigsellers {
   color: #6a1b9a;
@@ -76,8 +80,35 @@ svg {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 10rem;
+  margin-bottom: .2rem;
 }
-.bigsellersParagraph {
+ .bigsellersParagraph  {
+  /* color: #000;
+  background-color: #fdf7ff;
+  width: 28.125rem;
+  height: 6.4375rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal; */
+  color: #000;
+  background-color: #fdf7ff;
+  /* margin-left: 32rem;
+  margin-right: 32rem; */
+  margin-left: 20rem;
+  margin-right: 20rem;
+  height: 6rem; 
+  border-radius: 0.3125rem; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
   color: #000;
   text-align: center;
   font-family: "IRANYekan", sans-serif;
@@ -90,6 +121,9 @@ svg {
   justify-content: center;
   align-items: center;
   display: flex;
+  width: 30vw;
+  aspect-ratio: 4/1;
+  margin: auto;
   /* width: 10vw; */
 }
 .firstD {
@@ -203,7 +237,9 @@ svg {
       justify-content: center; */
 }
 /* media for Laptop */
-@media screen and (max-width: 992px) {
+
+
+@media screen and (min-width :769px ) and (max-width: 1279px) {
   .parentD {
     display: grid;
     justify-content: center;
@@ -281,6 +317,22 @@ svg {
     font-weight: 300;
     line-height: normal;
   }
+  .bigsellersParagraph{
+    word-wrap: break-word;
+    top: auto;
+    left: auto;
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-size: 1rem;
+
+   
+
+  }
+   
+   
 }
 /* media for mobile */
 @media screen and (max-width: 600px) {
@@ -358,4 +410,33 @@ svg {
     font-weight: 300;
     line-height: normal;
   }
+  .bigsellersParagraph {
+    word-wrap: break-word;
+    top: auto;
+    left: auto;
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  
+  }
+  .purple-left-part-picturs {
+    display: none;
+  }
+}
+
+@media screen and (min-width : 600px) and (max-width : 769px) {
+
+  .bigsellersParagraph {
+    word-wrap: break-word;
+    top: auto;
+    left: auto;
+    width: 90vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+  }
+
 }
