@@ -8,6 +8,7 @@
   flex-shrink: 0;
   /* display: grid; */
 }
+
 svg {
   width: 14.73294rem;
   height: 2.875rem;
@@ -31,7 +32,7 @@ svg {
   text-align: right;
   font-size: 1rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 300;
   line-height: normal;
   margin-top: 2em;
   padding-top: 0.6em;
@@ -39,9 +40,37 @@ svg {
   margin-left: 50em;
   grid-column: auto;
 }
+.tradeAccountRegistration button {
+  width: 18.625rem;
+  height: 3.5rem;
+  flex-shrink: 0;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  color: #fff;
+  background: #4e047b;
+  text-align: right;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 0.625rem;
+  border: none;
+}
+.purple-left-part-picturs {
+  float: left;
+  
+}
+.purple-right-part {
+  display: grid;
+  grid-column: center;
+}
 .bigsellers {
   color: #6a1b9a;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
   font-family: "IRANYekan", sans-serif;
   font-size: 1.5625rem;
   font-style: normal;
@@ -57,12 +86,11 @@ svg {
   font-weight: 300;
   line-height: normal;
 }
-.wheretobuyImage{
+.wheretobuyImage {
   justify-content: center;
   align-items: center;
   display: flex;
   /* width: 10vw; */
-  
 }
 .firstD {
   width: fit-content;
@@ -79,6 +107,8 @@ svg {
   color: black;
   background-color: #ffffff;
   border-radius: 10px;
+  margin-left: 2rem;
+  margin-right: 4rem;
 }
 .firstD .icon1 {
   width: 1.75rem;
@@ -107,6 +137,7 @@ svg {
   padding-bottom: 2em;
   background-color: #ffffff;
   border-radius: 10px;
+  margin-left: 2rem;
 }
 .secondD .p {
   /* position: absolute; */
@@ -128,6 +159,7 @@ svg {
   padding: 1em 1em 1em 1em;
   background-color: #ffffff;
   border-radius: 10px;
+  margin-left: 2rem;
 }
 
 .fourthD {
@@ -144,6 +176,7 @@ svg {
   padding: 1em 1em 1em 1em;
   background-color: #ffffff;
   border-radius: 10px;
+  margin-left: 4rem;
 }
 
 .parentD {
