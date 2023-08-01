@@ -99,12 +99,11 @@ svg {
   font-weight: 300;
   line-height: normal;
 }
-.wheretobuyImage {
+.wheretobuyImage img {
   justify-content: center;
   align-items: center;
   display: flex;
-  width: 30vw;
-  aspect-ratio: 4/1;
+  width: 50vw;
   margin: auto;
 }
 
@@ -193,11 +192,7 @@ svg {
 }
 
 .parentD {
-  /* position: absolute;
-      top: 50%;
-      left: 50%; 
-      transform : translate(-50% , -50% )*/
-  /* overflow: auto; */
+
   display: flex;
   justify-content: center;
   place-items: center;
@@ -215,6 +210,7 @@ svg {
 
 @media screen and (max-width: 992px) {
   .parentD {
+    width: 90vw;
     display: grid;
     justify-content: center;
     text-align: right;
@@ -265,7 +261,6 @@ svg {
     text-align: center;
     /* display: inline-block; */
     width: 90vw;
-
     /* overflow-wrap: break-word; */
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
@@ -280,10 +275,6 @@ svg {
     /* width: 90vw; */
     height: fit-content;
     text-align: center;
-    /* display: inline-block; */
-    /* overflow-wrap: break-word; */
-
-    /* overflow-wrap: break-word; */
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
@@ -303,29 +294,46 @@ svg {
     font-size: 1rem;
     margin: auto;
   }
+  .didanist {
+    width: auto;
+    
+  }
+  .purple-left-part-picturs  {
+    display: none;
+  }
+  .wheretobuyImage img{
+
+    width: 70%;
+    margin: auto;
+
+  }
+}
+/*////////////////////////////////////////////////*/
+
+@media screen and (min-width: 992px ) {
+  .parentD {
+    width: 80vw ;
+    margin: auto;
+  }
 }
 /* media for mobile */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .parentD {
     display: grid;
     grid-column: auto;
     font-size: 1vw;
-    /* white-space: pre; */
+    
     word-wrap: break-word;
   }
 
   .firstD {
-    /* white-space: pre; */
+    
     word-wrap: break-word;
     width: 90vw;
-    /* width: 90vw; */
     height: fit-content;
     text-align: center;
-    /* display: inline-block; */
-    /* overflow-wrap: break-word; */
     top: auto;
     left: auto;
-    /* overflow-wrap: break-word; */
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
@@ -333,12 +341,11 @@ svg {
     line-height: normal;
   }
   .secondD {
-    /* white-space: pre; */ /*   the problem was here*/
+    
     word-wrap: break-word;
     width: 90vw;
     height: fit-content;
     text-align: center;
-    /* display: inline-block;  */ /* here the inline-block dispaly has conflict with word-wrap prop */
     top: auto;
     left: auto;
     font-size: 1rem;
@@ -348,15 +355,15 @@ svg {
     line-height: normal;
   }
   .thirdD {
-    /* white-space: pre; */
+    
     word-wrap: break-word;
     text-align: center;
-    /* display: inline-block; */
+   
     width: 90vw;
     height: fit-content;
     top: auto;
     left: auto;
-    /* overflow-wrap: break-word; */
+    
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
@@ -366,14 +373,13 @@ svg {
   .fourthD {
     word-wrap: break-word;
     width: 90vw;
-    /* width: 90vw; */
+    
     height: fit-content;
     text-align: center;
-    /* display: inline-block; */
-    /* overflow-wrap: break-word; */
+   
     top: auto;
     left: auto;
-    /* overflow-wrap: break-word; */
+   
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
@@ -395,17 +401,4 @@ svg {
   }
 }
 
-/* @media screen and (min-width : 600px) and (max-width : 769px) {
-
-  .bigsellersParagraph {
-    word-wrap: break-word;
-    top: auto;
-    left: auto;
-    width: 90vw;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    margin: auto;
-  }
-
-} */
+ */
