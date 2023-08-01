@@ -67,9 +67,6 @@ svg {
   display: grid;
   grid-column: center;
 }
-.sellers {
-  
-}
 .bigsellers {
   color: #6a1b9a;
   justify-content: center;
@@ -81,16 +78,15 @@ svg {
   font-weight: 700;
   line-height: normal;
   margin-top: 10rem;
-  margin-bottom: .2rem;
+  margin-bottom: 0.2rem;
 }
- .bigsellersParagraph  {
-  
+.bigsellersParagraph {
   color: #000;
   background-color: #fdf7ff;
   margin-left: 20rem;
   margin-right: 20rem;
-  height: 6rem; 
-  border-radius: 0.3125rem; 
+  height: 6rem;
+  border-radius: 0.3125rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,9 +107,10 @@ svg {
   aspect-ratio: 4/1;
   margin: auto;
 }
-  
+
 .firstD {
   width: fit-content;
+
   justify-content: right;
   display: flex;
   text-align: right;
@@ -134,7 +131,6 @@ svg {
   height: 1.75rem;
   flex-shrink: 0;
 }
-
 
 .secondD {
   /* width: max-content; */
@@ -213,16 +209,11 @@ svg {
   margin-right: auto;
   margin-left: auto;
   background-color: #fdf7ff;
-  /* flex-wrap: nowrap; */
-  /* -moz-control-character-visibility: visible; */
-  /* display: flex;
-      align-items: center;
-      justify-content: center; */
 }
+
 /* media for Laptop */
 
-
-@media screen and (min-width :769px ) and (max-width: 1279px) {
+@media screen and (max-width: 992px) {
   .parentD {
     display: grid;
     justify-content: center;
@@ -250,8 +241,7 @@ svg {
     line-height: normal;
     /* display: inline-block; */
     /* overflow-wrap: break-word; */
-    top: auto;
-    left: auto;
+    margin: auto;
     /* overflow-wrap: break-word; */
   }
   .secondD {
@@ -268,20 +258,21 @@ svg {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin: auto;
   }
   .thirdD {
     word-wrap: break-word;
     text-align: center;
     /* display: inline-block; */
     width: 90vw;
-    top: auto;
-    left: auto;
+
     /* overflow-wrap: break-word; */
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin: auto;
   }
   .fourthD {
     word-wrap: break-word;
@@ -291,16 +282,16 @@ svg {
     text-align: center;
     /* display: inline-block; */
     /* overflow-wrap: break-word; */
-    top: auto;
-    left: auto;
+
     /* overflow-wrap: break-word; */
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin: auto;
   }
-  .bigsellersParagraph{
+  .bigsellersParagraph {
     word-wrap: break-word;
     top: auto;
     left: auto;
@@ -310,12 +301,8 @@ svg {
     display: flex;
     margin: auto;
     font-size: 1rem;
-
-   
-
+    margin: auto;
   }
-   
-   
 }
 /* media for mobile */
 @media screen and (max-width: 600px) {
@@ -402,14 +389,13 @@ svg {
     justify-content: center;
     display: flex;
     margin: auto;
-  
   }
   .purple-left-part-picturs {
     display: none;
   }
 }
 
-@media screen and (min-width : 600px) and (max-width : 769px) {
+/* @media screen and (min-width : 600px) and (max-width : 769px) {
 
   .bigsellersParagraph {
     word-wrap: break-word;
@@ -422,5 +408,4 @@ svg {
     margin: auto;
   }
 
-}
-
+} */
