@@ -213,7 +213,6 @@ svg {
     width: 90vw;
     display: grid;
     justify-content: center;
-    text-align: right;
     grid-column: auto;
     /* font-size: 3vw; */
     width: auto;
