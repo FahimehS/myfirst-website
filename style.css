@@ -1,4 +1,9 @@
-
+.parentdidanist {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #6c1c9c;
+}
 
 .didanist {
   height: 40vw;
@@ -11,34 +16,27 @@
   box-shadow: none;
   display: flex;
   flex-direction: row;
-  /* gap: 1rem; */
-  justify-content: space-between;
-  position: relative;
-
+  column-gap: 5rem;
+  margin: auto;
+  
 }
 .didanist1 {
-
   display: flex;
   flex-direction: column;
   margin-top: 6.75rem;
   margin-bottom: 115.12rem;
+  row-gap: 1.5rem;
+ 
 }
-svg {
+.didanist1 .svg {
   width: 14.73294rem;
   height: 2.875rem;
-  /* top: 108px;
-  left: 1027px; */
-  margin-left: 64.19rem;
-  margin-right: 12.33rem;
+  margin: auto;
   margin-bottom: 0.1em;
   margin-top: 0;
-  position: relative;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-   */
+  /* position: relative; */
 }
-.did2  p {
+.did2 p {
   width: 30.875rem;
   height: 4.0625rem;
   border-radius: 8px;
@@ -51,28 +49,25 @@ svg {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
- 
 }
 
 .did2 {
-  
   display: grid;
   grid-column: auto;
-  margin-right: 5.56rem;
-  margin-left: 55.56rem;
+  margin: auto;
+  /* margin-right: 5.56rem;
+  margin-left: 55.56rem; */
   /* justify-content: center; */
   /* display: flex;
   flex-direction: column; */
-  
 }
 .tradeAccountRegistration button {
   width: 18.625rem;
   height: 3.5rem;
- 
   text-align: center;
   justify-content: center;
   align-items: center;
-  /* display: flex; */
+  display: flex;
   color: #fff;
   background: #4e047b;
   text-align: right;
@@ -83,21 +78,17 @@ svg {
   line-height: normal;
   border-radius: 0.625rem;
   border: none;
-  display: grid;
-  grid-column: auto;
+  /* display: grid;
+  grid-column: auto; */
 }
 .tradeAccountRegistration {
-  display: grid;
-  grid-column: auto;
-  margin-right: 10.75rem;
-  margin-left: 61.88rem;
+  /* display: grid;
+  grid-column: auto; */
+  margin: auto;
 }
 .purple-left-part-picturs {
-  /* float: left; */
-  margin-left: 20.31rem;
-  margin-right: 46.31rem;
-  margin-top: 3.2rem;
-  position: absolute;
+  margin-top: 4rem;
+
 }
 
 .bigsellers {
@@ -144,6 +135,7 @@ svg {
 
 .firstD {
   width: fit-content;
+  /* height: 11.5662rem; */
   justify-content: right;
   display: flex;
   text-align: right;
@@ -152,12 +144,16 @@ svg {
   font-weight: 300;
   line-height: normal;
   font-family: "IRANYekan", sans-serif;
-  padding: 1em 1em 1em 1em;
+  /* padding: 1em 1em 1em 1em; */
   color: black;
   background-color: #ffffff;
   border-radius: 10px;
   margin-left: 2rem;
   margin-right: 4rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   border: 1px solid #e0dcdc;
 }
 .firstD .icon1 {
@@ -238,30 +234,28 @@ svg {
   /* flex-shrink: 0; */
   align-items: center;
   margin-top: 10rem;
+
   /* margin-bottom: 0.9rem; */
   /* margin-right: auto;
   margin-left: auto; */
   background-color: #fdf7ff;
 }
 .colaboratoresTitle {
-  color: #6A1B9A;
-text-align: center;
-font-family: 'IRANYekan' , sans-serif;
-font-size: 1.5625rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal; 
+  color: #6a1b9a;
+  text-align: center;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 .ColaboratorsLogo {
   display: flex;
   justify-content: center;
   align-items: center;
   column-gap: 2rem;
- margin: auto;
+  margin: auto;
 }
-
-
-
 
 /* media for Laptop */
 
@@ -271,7 +265,6 @@ line-height: normal;
     display: grid;
     justify-content: center;
     grid-column: auto;
-    /* font-size: 3vw; */
     width: auto;
     border-radius: 10px;
     margin-right: auto;
@@ -352,7 +345,28 @@ line-height: normal;
   }
   .didanist {
     width: 100%;
+    background-color: #6c1c9c;
     position: relative;
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+  }
+  .didanist1 {
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    margin: auto;
+    position: absolute;
+  }
+  .didanist1 .svg {
+    margin: auto;
+    /* width: 80%; */
+  }
+  .did2 {
+    margin: auto;
+  }
+  .tradeAccountRegistration {
+    margin: auto;
   }
   .purple-left-part-picturs {
     display: none;
@@ -366,7 +380,7 @@ line-height: normal;
 
 @media screen and (min-width: 992px) {
   .parentD {
-    width: 80vw;
+    width: 100vw;
     margin: auto;
   }
 }
