@@ -1,4 +1,5 @@
 .parentdidanist {
+  width: auto;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -8,8 +9,6 @@
 .didanist {
   height: 40vw;
   width: auto;
-  /* display: grid; */
-  /* grid-column: auto; */
   background-color: #6c1c9c;
   border: none;
   border-radius: 0;
@@ -18,7 +17,6 @@
   flex-direction: row;
   column-gap: 5rem;
   margin: auto;
-  
 }
 .didanist1 {
   display: flex;
@@ -26,7 +24,6 @@
   margin-top: 6.75rem;
   margin-bottom: 115.12rem;
   row-gap: 1.5rem;
- 
 }
 .didanist1 .svg {
   width: 14.73294rem;
@@ -42,6 +39,8 @@
   border-radius: 8px;
   background-color: #8f2fca;
   justify-content: center;
+  align-items: center;
+  display: flex;
   font-family: "IRANYekan", sans-serif;
   color: #fff;
   text-align: center;
@@ -55,11 +54,6 @@
   display: grid;
   grid-column: auto;
   margin: auto;
-  /* margin-right: 5.56rem;
-  margin-left: 55.56rem; */
-  /* justify-content: center; */
-  /* display: flex;
-  flex-direction: column; */
 }
 .tradeAccountRegistration button {
   width: 18.625rem;
@@ -88,7 +82,6 @@
 }
 .purple-left-part-picturs {
   margin-top: 4rem;
-
 }
 
 .bigsellers {
@@ -132,12 +125,28 @@
   width: 50vw;
   margin: auto;
 }
+.div-title {
+  width: 15.0625rem;
+  color: #c15a5a;
+  text-align: right;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4375rem; /* 143.75% */
 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
 .firstD {
-  width: fit-content;
+  width: 18.75rem;
+  height: 11.5625rem;
+  flex-shrink: 0;
   /* height: 11.5662rem; */
   justify-content: right;
-  display: flex;
+  display: grid;
   text-align: right;
   font-size: 1rem;
   font-style: normal;
@@ -148,12 +157,9 @@
   color: black;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-left: 2rem;
-  margin-right: 4rem;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  /* margin-left: 2rem;
+  margin-right: 4rem; */
+  padding: 1em 1em 1em 1em;
   border: 1px solid #e0dcdc;
 }
 .firstD .icon1 {
@@ -164,9 +170,11 @@
 
 .secondD {
   /* width: max-content; */
-  width: fit-content;
+  width: 18.75rem;
+  height: 11.5625rem;
+  flex-shrink: 0;
   justify-content: right;
-  display: flex;
+  display: grid;
   text-align: right;
   font-size: 1rem;
   font-family: "IRANYekan", sans-serif;
@@ -174,23 +182,22 @@
   font-weight: 300;
   line-height: normal;
   /* position: absolute; */
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 2em;
-  padding-bottom: 2em;
+  padding: 1em 1em 1em 1em;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   border: 1px solid #e0dcdc;
 }
 .secondD .p {
   /* position: absolute; */
-  margin: 10px 10px 10px 10px;
+  /* margin: 10px 10px 10px 10px; */
 }
 .thirdD {
-  width: fit-content;
+  width: 18.75rem;
+  height: 11.5625rem;
+  flex-shrink: 0;
   justify-content: right;
-  display: flex;
+  display: grid;
   text-align: right;
   font-size: 1rem;
   font-family: "IRANYekan", sans-serif;
@@ -203,14 +210,17 @@
   padding: 1em 1em 1em 1em;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   border: 1px solid #e0dcdc;
 }
 
 .fourthD {
-  width: fit-content;
+  /* width: fit-content; */
+  width: 18.75rem;
+  height: 11.5625rem;
+  flex-shrink: 0;
   justify-content: center;
-  display: flex;
+  display: grid;
   text-align: right;
   font-size: 1rem;
   font-family: "IRANYekan", sans-serif;
@@ -221,26 +231,31 @@
   padding: 1em 1em 1em 1em;
   background-color: #ffffff;
   border-radius: 10px;
-  margin-left: 4rem;
+  /* margin-left: 4rem; */
   border: 1px solid #e0dcdc;
+}
+.parentD svg {
+  margin-left: 1.19rem;
+  margin-right: 15.75rem;
+}
+.parentD img {
+  margin-left: 1.19rem;
+  margin-right: 15.75rem;
 }
 
 .parentD {
   display: flex;
   justify-content: center;
-  /* place-items: center; */
-  width: 100%;
-  /* height: 23.1875rem; */
-  /* flex-shrink: 0; */
+  width: auto;
+  height: 23.1875rem;
+  flex-shrink: 0;
   align-items: center;
   margin-top: 10rem;
-
-  /* margin-bottom: 0.9rem; */
-  /* margin-right: auto;
-  margin-left: auto; */
+  margin: auto;
+  column-gap: 1.5rem;
   background-color: #fdf7ff;
 }
-.colaboratoresTitle {
+.colaboratoresTitle p {
   color: #6a1b9a;
   text-align: center;
   font-family: "IRANYekan", sans-serif;
@@ -257,6 +272,9 @@
   margin: auto;
 }
 
+.ColaboratorsLogo img {
+  display: inline-block;
+}
 /* media for Laptop */
 
 @media screen and (max-width: 992px) {
@@ -346,7 +364,7 @@
   .didanist {
     width: 100%;
     background-color: #6c1c9c;
-    position: relative;
+
     /* margin: auto; */
     justify-content: center;
     align-items: center;
@@ -356,7 +374,6 @@
     align-items: center;
     /* display: flex; */
     margin: auto;
-    position: absolute;
   }
   .didanist1 .svg {
     margin: auto;
@@ -364,6 +381,7 @@
   }
   .did2 {
     margin: auto;
+   
   }
   .tradeAccountRegistration {
     margin: auto;
@@ -376,11 +394,12 @@
     margin: auto;
   }
 }
-/*////////////////////////////////////////////////*/
 
-@media screen and (min-width: 992px) {
+
+@media screen and (min-width: 995px) {
   .parentD {
-    width: 100vw;
+
     margin: auto;
+    /* width: 80vw; */
   }
 }
