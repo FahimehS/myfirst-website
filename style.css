@@ -1,5 +1,16 @@
+body {
+  border: none;
+  box-sizing: border-box;
+  
+}
+
+
+.landing {
+  height: 100%;
+}
+
 .parentdidanist {
-  width: auto;
+  /* width: auto; */
   justify-content: center;
   display: flex;
   align-items: center;
@@ -7,7 +18,7 @@
 }
 
 .didanist {
-  height: 40vw;
+  height: 29.625rem; 
   width: auto;
   background-color: #6c1c9c;
   border: none;
@@ -34,7 +45,7 @@
   /* position: relative; */
 }
 .did2 p {
-  width: 30.875rem;
+  width: 30vw;
   height: 4.0625rem;
   border-radius: 8px;
   background-color: #8f2fca;
@@ -56,7 +67,7 @@
   margin: auto;
 }
 .tradeAccountRegistration button {
-  width: 18.625rem;
+  width:15rem;
   height: 3.5rem;
   text-align: center;
   justify-content: center;
@@ -82,8 +93,12 @@
 }
 .purple-left-part-picturs {
   margin-top: 4rem;
+  margin-bottom: 2rem;
 }
-
+.purple-left-part-picturs img {
+  width: 40vw;
+  height: 40vw;
+}
 .bigsellers {
   color: #6a1b9a;
   justify-content: center;
@@ -94,7 +109,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: 10rem;
+  margin-top: 15rem;
   margin-bottom: 0.2rem;
 }
 .bigsellersParagraph {
@@ -102,10 +117,15 @@
   background-color: #fdf7ff;
   /* display: flex; */
   width: 28.125rem;
-  height: 6.4375rem;
+  height: 8.4375rem;
   /* flex-direction: column; */
   margin: auto;
+  
+  padding-right: 2rem;
+  padding-left: 2rem;
 
+
+  display: flex;
   border-radius: 0.3125rem;
   justify-content: center;
   align-items: center;
@@ -126,7 +146,7 @@
   margin: auto;
 }
 .div-title {
-  width: 15.0625rem;
+  /* width: 15.0625rem; */
   color: #c15a5a;
   text-align: right;
   font-family: "IRANYekan", sans-serif;
@@ -135,18 +155,20 @@
   font-weight: 700;
   line-height: 1.4375rem; /* 143.75% */
 
+  word-wrap: break-word;
   justify-content: center;
   align-items: center;
   display: flex;
   margin: auto;
 }
 .firstD {
-  width: 18.75rem;
-  height: 11.5625rem;
-  flex-shrink: 0;
+  width:15vw;
+  word-wrap: break-word;
+  height: fit-content;
+  
   /* height: 11.5662rem; */
   justify-content: right;
-  display: grid;
+  display: block;
   text-align: right;
   font-size: 1rem;
   font-style: normal;
@@ -157,24 +179,53 @@
   color: black;
   background-color: #ffffff;
   border-radius: 10px;
-  /* margin-left: 2rem;
-  margin-right: 4rem; */
+  
   padding: 1em 1em 1em 1em;
   border: 1px solid #e0dcdc;
 }
-.firstD .icon1 {
-  width: 1.75rem;
-  height: 1.75rem;
-  flex-shrink: 0;
+.firstD .fsvg{
+  
+
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+ margin-bottom: 2%;
+ /* margin-left: ; */
+}
+.secondD .fsvg {
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+  /* position: absolute; */
+ 
+ margin-bottom: 2%;
+}
+.thirdD .fsvg {
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+  /* position: absolute; */
+ 
+ margin-bottom: 2%;
+}
+.fourthD .fsvg{
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+  /* position: absolute; */
+  
+
+ margin-bottom: 2%;
 }
 
 .secondD {
   /* width: max-content; */
-  width: 18.75rem;
-  height: 11.5625rem;
+  width: 15vw;
+  height: fit-content;
+  word-wrap: break-word;
   flex-shrink: 0;
   justify-content: right;
-  display: grid;
+  display: block;
   text-align: right;
   font-size: 1rem;
   font-family: "IRANYekan", sans-serif;
@@ -193,11 +244,12 @@
   /* margin: 10px 10px 10px 10px; */
 }
 .thirdD {
-  width: 18.75rem;
-  height: 11.5625rem;
+  width: 15vw;
+  height: fit-content;
+  word-wrap: break-word;
   flex-shrink: 0;
   justify-content: right;
-  display: grid;
+  display: block;
   text-align: right;
   font-size: 1rem;
   font-family: "IRANYekan", sans-serif;
@@ -216,11 +268,12 @@
 
 .fourthD {
   /* width: fit-content; */
-  width: 18.75rem;
-  height: 11.5625rem;
+  width: 15vw;
+  height: fit-content;
+  word-wrap: break-word;
   flex-shrink: 0;
   justify-content: center;
-  display: grid;
+  display: block;
   text-align: right;
   font-size: 1rem;
   font-family: "IRANYekan", sans-serif;
@@ -246,14 +299,18 @@
 .parentD {
   display: flex;
   justify-content: center;
-  width: auto;
-  height: 23.1875rem;
+  width: 100%;
+  height: 40vw;
   flex-shrink: 0;
   align-items: center;
   margin-top: 10rem;
   margin: auto;
   column-gap: 1.5rem;
   background-color: #fdf7ff;
+}
+.colaboratores{
+  /* position: absolute; */
+ /* margin-top: 15rem; */
 }
 .colaboratoresTitle p {
   color: #6a1b9a;
@@ -270,25 +327,70 @@
   align-items: center;
   column-gap: 2rem;
   margin: auto;
+  width: 80vw;
 }
 
 .ColaboratorsLogo img {
-  display: inline-block;
+
+}
+.last {
+
+height:40vh;
+background-color: #242424;
+display: flex;
+column-gap: 1rem;
+}
+.last_inside {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+   
+  margin-right: 5rem;
+  /* margin-left: 2rem; */
+  margin-top: 3.56rem;
+  margin-bottom: 3rem;
+  /* position: absolute; */
+
+}
+.left a {
+  /* background-color: transparent; */
+  text-decoration: none;
+  color: #c36;
+  font-family: "IRANYekan", sans-serif;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+
+}
+.last a:hover {
+  color: black;
 }
 /* media for Laptop */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
+  * {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   .parentD {
     width: 90vw;
+    height: auto;
     display: grid;
     justify-content: center;
     grid-column: auto;
-    width: auto;
+    
     border-radius: 10px;
-    margin-right: auto;
-    margin-left: auto;
-    vertical-align: middle;
-    /* align-self: center; */
+    margin: auto;
+    
   }
   .firstD {
     /* white-space: pre; */
@@ -314,8 +416,8 @@
     height: fit-content;
     text-align: center;
     /* display: inline-block;  */ /* here the inline-block dispaly has conflict with word-wrap prop */
-    top: auto;
-    left: auto;
+    /* top: auto;
+    left: auto; */
     font-size: 1rem;
     font-family: "IRANYekan", sans-serif;
     font-style: normal;
@@ -351,15 +453,16 @@
   }
   .bigsellersParagraph {
     word-wrap: break-word;
-    top: auto;
-    left: auto;
-    width: 90vw;
+    /* top: auto;
+    left: auto; */
+    width: 70vw;
     text-align: center;
     justify-content: center;
     display: flex;
     margin: auto;
     font-size: 1rem;
-    margin: auto;
+   
+    
   }
   .didanist {
     width: 100%;
@@ -379,27 +482,60 @@
     margin: auto;
     /* width: 80%; */
   }
-  .did2 {
+  .did2 p {
     margin: auto;
+    width: 80vw;
    
   }
   .tradeAccountRegistration {
     margin: auto;
   }
+  /* .tradeAccountRegistration button {
+    width: 29vw;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  } */
   .purple-left-part-picturs {
+    display: none;
+  }
+  .purple-left-part-picturs img {
     display: none;
   }
   .wheretobuyImage img {
     width: 70%;
     margin: auto;
   }
+  .ColaboratorsLogo {
+
+    display: grid;
+    row-gap: 2rem;
+
+  }
+  .last {
+    height: 30%;
+  }
+  .last_inside {
+    display: grid;
+    margin-right: 20%;
+    width: 80%;
+    margin-left: 5%;
+  }
+  .left {
+    margin-right: 1%;
+  }
+  .middle {
+    word-wrap: break-word;
+    width: 80vw;
+  }
 }
 
 
-@media screen and (min-width: 995px) {
+/* @media screen and (min-width: 995px) {
   .parentD {
 
     margin: auto;
-    /* width: 80vw; */
+   
   }
-}
+} */
