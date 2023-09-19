@@ -1,0 +1,541 @@
+body {
+  border: none;
+  box-sizing: border-box;
+  
+}
+
+
+.landing {
+  height: 100%;
+}
+
+.parentdidanist {
+  /* width: auto; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #6c1c9c;
+}
+
+.didanist {
+  height: 29.625rem; 
+  width: auto;
+  background-color: #6c1c9c;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 5rem;
+  margin: auto;
+}
+.didanist1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6.75rem;
+  margin-bottom: 115.12rem;
+  row-gap: 1.5rem;
+}
+.didanist1 .svg {
+  width: 14.73294rem;
+  height: 2.875rem;
+  margin: auto;
+  margin-bottom: 0.1em;
+  margin-top: 0;
+  /* position: relative; */
+}
+.did2 p {
+  width: 30vw;
+  height: 4.0625rem;
+  border-radius: 8px;
+  background-color: #8f2fca;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "IRANYekan", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.did2 {
+  display: grid;
+  grid-column: auto;
+  margin: auto;
+}
+.tradeAccountRegistration button {
+  width:15rem;
+  height: 3.5rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff;
+  background: #4e047b;
+  text-align: right;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  border-radius: 0.625rem;
+  border: none;
+  /* display: grid;
+  grid-column: auto; */
+}
+.tradeAccountRegistration {
+  /* display: grid;
+  grid-column: auto; */
+  margin: auto;
+}
+.purple-left-part-picturs {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+.purple-left-part-picturs img {
+  width: 40vw;
+  height: 40vw;
+}
+.bigsellers {
+  color: #6a1b9a;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 15rem;
+  margin-bottom: 0.2rem;
+}
+.bigsellersParagraph {
+  color: #000;
+  background-color: #fdf7ff;
+  /* display: flex; */
+  width: 28.125rem;
+  height: 8.4375rem;
+  /* flex-direction: column; */
+  margin: auto;
+  
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+
+  display: flex;
+  border-radius: 0.3125rem;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  color: #000;
+  text-align: center;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.wheretobuyImage img {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 50vw;
+  margin: auto;
+}
+.div-title {
+  /* width: 15.0625rem; */
+  color: #c15a5a;
+  text-align: right;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.4375rem; /* 143.75% */
+
+  word-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+.firstD {
+  width:15vw;
+  word-wrap: break-word;
+  height: fit-content;
+  
+  /* height: 11.5662rem; */
+  justify-content: right;
+  display: block;
+  text-align: right;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-family: "IRANYekan", sans-serif;
+  /* padding: 1em 1em 1em 1em; */
+  color: black;
+  background-color: #ffffff;
+  border-radius: 10px;
+  
+  padding: 1em 1em 1em 1em;
+  border: 1px solid #e0dcdc;
+}
+.firstD .fsvg{
+  
+
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+ margin-bottom: 2%;
+ /* margin-left: ; */
+}
+.secondD .fsvg {
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+  /* position: absolute; */
+ 
+ margin-bottom: 2%;
+}
+.thirdD .fsvg {
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+  /* position: absolute; */
+ 
+ margin-bottom: 2%;
+}
+.fourthD .fsvg{
+  margin-right: 80%;
+  margin-left: 5%;
+  display: block;
+  /* position: absolute; */
+  
+
+ margin-bottom: 2%;
+}
+
+.secondD {
+  /* width: max-content; */
+  width: 15vw;
+  height: fit-content;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  justify-content: right;
+  display: block;
+  text-align: right;
+  font-size: 1rem;
+  font-family: "IRANYekan", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  /* position: absolute; */
+  padding: 1em 1em 1em 1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* margin-left: 2rem; */
+  border: 1px solid #e0dcdc;
+}
+.secondD .p {
+  /* position: absolute; */
+  /* margin: 10px 10px 10px 10px; */
+}
+.thirdD {
+  width: 15vw;
+  height: fit-content;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  justify-content: right;
+  display: block;
+  text-align: right;
+  font-size: 1rem;
+  font-family: "IRANYekan", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  /* position: absolute; */
+  /* padding-left: 30px;
+      padding-right: 30px; */
+  padding: 1em 1em 1em 1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* margin-left: 2rem; */
+  border: 1px solid #e0dcdc;
+}
+
+.fourthD {
+  /* width: fit-content; */
+  width: 15vw;
+  height: fit-content;
+  word-wrap: break-word;
+  flex-shrink: 0;
+  justify-content: center;
+  display: block;
+  text-align: right;
+  font-size: 1rem;
+  font-family: "IRANYekan", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  /* position: absolute; */
+  padding: 1em 1em 1em 1em;
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* margin-left: 4rem; */
+  border: 1px solid #e0dcdc;
+}
+.parentD svg {
+  margin-left: 1.19rem;
+  margin-right: 15.75rem;
+}
+.parentD img {
+  margin-left: 1.19rem;
+  margin-right: 15.75rem;
+}
+
+.parentD {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 40vw;
+  flex-shrink: 0;
+  align-items: center;
+  margin-top: 10rem;
+  margin: auto;
+  column-gap: 1.5rem;
+  background-color: #fdf7ff;
+}
+.colaboratores{
+  /* position: absolute; */
+ /* margin-top: 15rem; */
+}
+.colaboratoresTitle p {
+  color: #6a1b9a;
+  text-align: center;
+  font-family: "IRANYekan", sans-serif;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.ColaboratorsLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+  margin: auto;
+  width: 80vw;
+}
+
+.ColaboratorsLogo img {
+
+}
+.last {
+
+height:40vh;
+background-color: #242424;
+display: flex;
+column-gap: 1rem;
+}
+.last_inside {
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+   
+  margin-right: 5rem;
+  /* margin-left: 2rem; */
+  margin-top: 3.56rem;
+  margin-bottom: 3rem;
+  /* position: absolute; */
+
+}
+.left a {
+  /* background-color: transparent; */
+  text-decoration: none;
+  color: #c36;
+  font-family: "IRANYekan", sans-serif;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+
+}
+.last a:hover {
+  color: black;
+}
+/* media for Laptop */
+
+@media screen and (max-width: 768px) {
+  * {
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .parentD {
+    width: 90vw;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    grid-column: auto;
+    
+    border-radius: 10px;
+    margin: auto;
+    
+  }
+  .firstD {
+    /* white-space: pre; */
+    word-wrap: break-word;
+    width: 90vw;
+    /* width: 90vw; */
+    height: fit-content;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "IRANYekan", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    /* display: inline-block; */
+    /* overflow-wrap: break-word; */
+    margin: auto;
+    /* overflow-wrap: break-word; */
+  }
+  .secondD {
+    /* white-space: pre; */ /*   the problem was here*/
+    word-wrap: break-word;
+    width: 90vw;
+    height: fit-content;
+    text-align: center;
+    /* display: inline-block;  */ /* here the inline-block dispaly has conflict with word-wrap prop */
+    /* top: auto;
+    left: auto; */
+    font-size: 1rem;
+    font-family: "IRANYekan", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: auto;
+  }
+  .thirdD {
+    word-wrap: break-word;
+    text-align: center;
+    /* display: inline-block; */
+    width: 90vw;
+    /* overflow-wrap: break-word; */
+    font-size: 1rem;
+    font-family: "IRANYekan", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: auto;
+  }
+  .fourthD {
+    word-wrap: break-word;
+    width: 90vw;
+    /* width: 90vw; */
+    height: fit-content;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "IRANYekan", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: auto;
+  }
+  .bigsellersParagraph {
+    word-wrap: break-word;
+    /* top: auto;
+    left: auto; */
+    width: 70vw;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    font-size: 1rem;
+   
+    
+  }
+  .didanist {
+    width: 100%;
+    background-color: #6c1c9c;
+
+    /* margin: auto; */
+    justify-content: center;
+    align-items: center;
+  }
+  .didanist1 {
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    margin: auto;
+  }
+  .didanist1 .svg {
+    margin: auto;
+    /* width: 80%; */
+  }
+  .did2 p {
+    margin: auto;
+    width: 80vw;
+   
+  }
+  .tradeAccountRegistration {
+    margin: auto;
+  }
+  /* .tradeAccountRegistration button {
+    width: 29vw;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  } */
+  .purple-left-part-picturs {
+    display: none;
+  }
+  .purple-left-part-picturs img {
+    display: none;
+  }
+  .wheretobuyImage img {
+    width: 70%;
+    margin: auto;
+  }
+  .ColaboratorsLogo {
+
+    display: grid;
+    row-gap: 2rem;
+
+  }
+  .last {
+    height: 30%;
+  }
+  .last_inside {
+    display: grid;
+    margin-right: 20%;
+    width: 80%;
+    margin-left: 5%;
+  }
+  .left {
+    margin-right: 1%;
+  }
+  .middle {
+    word-wrap: break-word;
+    width: 80vw;
+  }
+}
+
+
+/* @media screen and (min-width: 995px) {
+  .parentD {
+
+    margin: auto;
+   
+  }
+} */
